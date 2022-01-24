@@ -10,6 +10,10 @@
 
 @media screen and (max-width: 500px)
 {
+    .conteneur
+    {
+        margin: 10px;
+    }
     .menu-principal
     {
         background-color: rgb(0, 60, 255);
@@ -31,6 +35,33 @@
         .page-active
         {
             background-color: rgb(0, 132, 255);
+        }
+    }
+
+    header
+    {
+        text-align: center;
+
+        button
+        {
+            text-transform: uppercase;
+            padding: 0.5em;
+            width: 100%;
+            margin: 3px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .bouton-don
+        {
+            font-size:x-large;
+            background-color: #EF2B3F;
+        }
+        .bouton-benevole
+        {
+            font-size: large;
+            background-color: #1A4687;
         }
     }
     

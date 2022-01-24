@@ -8,6 +8,9 @@
 
 /* ---------------------------- Styles pour smartphones -------------------------------------- */
 @media screen and (max-width: 500px) {
+  .conteneur {
+    margin: 10px;
+  }
   .menu-principal {
     background-color: #003cff;
     padding: 1em;
@@ -29,6 +32,27 @@
   }
   .menu-principal .page-active {
     background-color: #0084ff;
+  }
+  header {
+    text-align: center;
+  }
+  header button {
+    text-transform: uppercase;
+    padding: 0.5em;
+    width: 100%;
+    margin: 3px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  header .bouton-don {
+    font-size: x-large;
+    background-color: #EF2B3F;
+  }
+  header .bouton-benevole {
+    font-size: large;
+    background-color: #1A4687;
   }
 }
 

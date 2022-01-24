@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Association de solidarité et de mise en mouvement</title>
 </head>
-<body>    
+
+<body>
     <nav role="navigation" class="menu-principal">
         <form action="index.html" method="get">
             <button class="page-active">
@@ -15,7 +16,7 @@
                 Accueil
             </button>
         </form>
-
+    
         <form action="evenements.html" method="get">
             <button>
                 <img src="médias/event-icon.png" alt="event-icon" class="icons-menu">
@@ -24,131 +25,133 @@
         </form>   
     </nav>
 
-    <header>
-        <img src="médias/logo.png" alt="logo">
-        <form action="#" method="get">
-            <button type="submit">Je fais un don</button>
-        </form>
-        <form action="#" method="get">
-            <button type="submit">Je deviens bénévole</button>
-        </form>
-    </header>
-
-    <main>
-        <h2>Fédération de la Loire</h2>
-        <h1>Qui sommes nous ?</h1>
-        <h3>
-            Jour après jour, ici comme ailleurs, le Secours populaire, association reconnue 
-            d’utilité publique, agit pour un monde plus juste et plus solidaire, en permettant à 
-            chacun de s’émanciper et trouver sa place de citoyen, là où il vit, travaille ou étudie.
-        </h3>
-        <p>
-            Issu du peuple, animé par lui, le Secours populaire promeut une relation d’égal à égal 
-            véritablement unique et un accueil inconditionnel. Présent partout, au bout de la rue 
-            comme au bout du monde avec son réseau de partenaires, il valorise systématiquement 
-            l’initiative comme mode d’action. L’association est profondément décentralisée et chacun 
-            peut ainsi agir : actions d’urgence, actions dans la durée, accompagnement global, sur 
-            les plans matériel, alimentaire, médical, moral, juridique, de la formation, de 
-            l’insertion sociale et professionnelle, ainsi que de l’accès au droit, à la culture et 
-            aux loisirs, au numérique, etc.
-        </p>
-        <p>
-            Bénévoles comme partenaires, entreprises et donateurs, adultes comme enfants dès le plus 
-            jeune âge... tout le monde est invité à passer à l’action, à s'émanciper, à vivre la 
-            solidarité jour après jour. 
-        </p>
-        <p>
-            Ancrant sa vision sur la volonté d’un monde plus solidaire, le Secours populaire 
-            s’abstient de tout clivage : il rassemble et crée du lien autour des valeurs partagées. 
-            Son engagement est un combat. Un mode d’action. Il est sur le pont. Là où ça bouge. 
-            Là où ça compte. Il a, tout naturellement, un rôle de vigie vis-à-vis des pouvoirs 
-            publics. 
-        </p>
-    </main>
-
-    <article class="bref">
-        <a href="#">
-            <h2 class="titre-section">En bref</h2>
-            <img src="médias/section-bref.jpg" alt="img-bref">
-            <p>
-                En France, le Secours populaire français intervient dans les domaines de l’aide 
-                alimentaire, vestimentaire, de l’accès et du maintien dans le logement, de l’accès aux 
-                soins, de l’insertion socioprofessionnelle, de l’accès à la culture et plus généralement 
-                de l’accès aux droits pour tous.
-            </p>
-        </a>
-    </article>
-
-    <article class="valeurs">
-        <a href="#">
-            <h2 class="titre-section">Nos valeurs</h2>
-            <img src="médias/section-valeurs.jpg" alt="img-valeurs">
-            <p>
-                Grâce à des personnes de tous les milieux, de tous âges et de toutes convictions, 
-                à la richesse de leur diversité, le Secours populaire français a pris une place 
-                originale parmi les associations de solidarité.  
-            </p>
-        </a>
-    </article>
+    <div class="conteneur">
+        <header>
+            <img src="médias/logo.png" alt="logo" width="100">
+            <form action="#" method="get">
+                <button type="submit" class="bouton-don">Je fais un don</button>
+            </form>
+            <form action="#" method="get">
+                <button type="submit" class="bouton-benevole">Je deviens bénévole</button>
+            </form>
+        </header>
     
-    <article class="histoire">
-        <a href="#">
-            <h2 class="titre-section">Notre histoire</h2>
-            <img src="médias/section-histoire.jpg" alt="img-histoire">
+        <main>
+            <h2>Fédération de la Loire</h2>
+            <h1>Qui sommes nous ?</h1>
+            <h3>
+                Jour après jour, ici comme ailleurs, le Secours populaire, association reconnue 
+                d’utilité publique, agit pour un monde plus juste et plus solidaire, en permettant à 
+                chacun de s’émanciper et trouver sa place de citoyen, là où il vit, travaille ou étudie.
+            </h3>
             <p>
-                Créé en 1945, le Secours populaire français est l'héritier de mouvements populaires 
-                dont il a, au long de  ces décennies, conservé les valeurs tout en évoluant 
-                considérablement. Son orientation, ses missions, son indépendance permettent de 
-                rassembler aujourd’hui en son sein des gens de cœur quels que soient leurs 
-                engagements personnels, leurs sympathies politiques, philosophiques ou religieuses, 
-                sans aucune distinction de race, de sexe, d'âge ou de niveau social.  
+                Issu du peuple, animé par lui, le Secours populaire promeut une relation d’égal à égal 
+                véritablement unique et un accueil inconditionnel. Présent partout, au bout de la rue 
+                comme au bout du monde avec son réseau de partenaires, il valorise systématiquement 
+                l’initiative comme mode d’action. L’association est profondément décentralisée et chacun 
+                peut ainsi agir : actions d’urgence, actions dans la durée, accompagnement global, sur 
+                les plans matériel, alimentaire, médical, moral, juridique, de la formation, de 
+                l’insertion sociale et professionnelle, ainsi que de l’accès au droit, à la culture et 
+                aux loisirs, au numérique, etc.
             </p>
-        </a>
-    </article>
-
-    <section class="evenements">
-        <div class="ligne">
-            <div class="colonne">
-                <img src="médias/calendar.png" alt="img-calendar">
-            </div>
-            <div class="colonne">
-                <p>Les prochains</p>
-                <h3>Evénements</h3>
-            </div>
-        </div>
-
-        <div class="ligne">
-            <div class="colonne">
-                <div>
-                    <h3>30</h3>
-                    <h4>Jan</h4>
+            <p>
+                Bénévoles comme partenaires, entreprises et donateurs, adultes comme enfants dès le plus 
+                jeune âge... tout le monde est invité à passer à l’action, à s'émanciper, à vivre la 
+                solidarité jour après jour. 
+            </p>
+            <p>
+                Ancrant sa vision sur la volonté d’un monde plus solidaire, le Secours populaire 
+                s’abstient de tout clivage : il rassemble et crée du lien autour des valeurs partagées. 
+                Son engagement est un combat. Un mode d’action. Il est sur le pont. Là où ça bouge. 
+                Là où ça compte. Il a, tout naturellement, un rôle de vigie vis-à-vis des pouvoirs 
+                publics. 
+            </p>
+        </main>
+    
+        <article class="bref">
+            <a href="#">
+                <h2 class="titre-section">En bref</h2>
+                <img src="médias/section-bref.jpg" alt="img-bref">
+                <p>
+                    En France, le Secours populaire français intervient dans les domaines de l’aide 
+                    alimentaire, vestimentaire, de l’accès et du maintien dans le logement, de l’accès aux 
+                    soins, de l’insertion socioprofessionnelle, de l’accès à la culture et plus généralement 
+                    de l’accès aux droits pour tous.
+                </p>
+            </a>
+        </article>
+    
+        <article class="valeurs">
+            <a href="#">
+                <h2 class="titre-section">Nos valeurs</h2>
+                <img src="médias/section-valeurs.jpg" alt="img-valeurs">
+                <p>
+                    Grâce à des personnes de tous les milieux, de tous âges et de toutes convictions, 
+                    à la richesse de leur diversité, le Secours populaire français a pris une place 
+                    originale parmi les associations de solidarité.  
+                </p>
+            </a>
+        </article>
+        
+        <article class="histoire">
+            <a href="#">
+                <h2 class="titre-section">Notre histoire</h2>
+                <img src="médias/section-histoire.jpg" alt="img-histoire">
+                <p>
+                    Créé en 1945, le Secours populaire français est l'héritier de mouvements populaires 
+                    dont il a, au long de  ces décennies, conservé les valeurs tout en évoluant 
+                    considérablement. Son orientation, ses missions, son indépendance permettent de 
+                    rassembler aujourd’hui en son sein des gens de cœur quels que soient leurs 
+                    engagements personnels, leurs sympathies politiques, philosophiques ou religieuses, 
+                    sans aucune distinction de race, de sexe, d'âge ou de niveau social.  
+                </p>
+            </a>
+        </article>
+    
+        <section class="evenements">
+            <div class="ligne">
+                <div class="colonne">
+                    <img src="médias/calendar.png" alt="img-calendar">
+                </div>
+                <div class="colonne">
+                    <p>Les prochains</p>
+                    <h3>Evénements</h3>
                 </div>
             </div>
-            <div class="colonne">
-                <a href="#">Collecte au marché des Chartrons (Bordeaux)</a>
-            </div>
-        </div>
-
-        <div class="ligne">
-            <div class="colonne">
-                <div>
-                    <h3>31</h3>
-                    <h4>Jan</h4>
+    
+            <div class="ligne">
+                <div class="colonne">
+                    <div>
+                        <h3>30</h3>
+                        <h4>Jan</h4>
+                    </div>
+                </div>
+                <div class="colonne">
+                    <a href="#">Collecte au marché des Chartrons (Bordeaux)</a>
                 </div>
             </div>
-            <div class="colonne">
-                <a href="#">Urgence Guadeloupe : une réponse au cri de la population</a>
+    
+            <div class="ligne">
+                <div class="colonne">
+                    <div>
+                        <h3>31</h3>
+                        <h4>Jan</h4>
+                    </div>
+                </div>
+                <div class="colonne">
+                    <a href="#">Urgence Guadeloupe : une réponse au cri de la population</a>
+                </div>
             </div>
-        </div>
-
-        <div class="ligne">
-            <div class="colonne"></div>
-            <div class="colonne">
-                <a href="#">Tous les événements</a>
+    
+            <div class="ligne">
+                <div class="colonne"></div>
+                <div class="colonne">
+                    <a href="#">Tous les événements</a>
+                </div>
             </div>
-        </div>
-    </section>
-
+        </section>
+    </div>
+    
     <footer>
         <p>Steeve Asensi - 2021</p>
     </footer>
