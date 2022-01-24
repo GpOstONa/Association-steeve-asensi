@@ -4,12 +4,18 @@
   padding: 0;
   list-style-type: none;
   text-decoration: none;
+  font-family: sans-serif;
 }
 
 /* ---------------------------- Styles pour smartphones -------------------------------------- */
 @media screen and (max-width: 500px) {
   .conteneur {
     margin: 10px;
+  }
+  p {
+    padding: 10px 0;
+    font-size: 0.8em;
+    line-height: 1.5em;
   }
   .menu-principal {
     background-color: #003cff;
@@ -53,6 +59,18 @@
   header .bouton-benevole {
     font-size: large;
     background-color: #1A4687;
+  }
+  main {
+    margin-top: 20px;
+  }
+  main h1 {
+    font-size: 3em;
+    color: brown;
+    font-weight: lighter;
+  }
+  main h3 {
+    padding: 10px 0;
+    font-size: 0.9em;
   }
 }
 
