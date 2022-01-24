@@ -1,7 +1,9 @@
-html, body
+*
 {
     margin: 0;
     padding: 0;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 /* ---------------------------- Styles pour smartphones -------------------------------------- */
@@ -10,18 +12,28 @@ html, body
 {
     .menu-principal
     {
-        background-color: rgb(16, 71, 255);
-    }
-}
+        background-color: rgb(0, 60, 255);
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
 
-/* ------------------------------ Styles pour tablettes --------------------------------------- */
-
-@media screen and (min-width: 501px)
-{
-    body 
-    {
-        background-color: yellow;
+        button 
+        {
+            background-color: blue;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .icons-menu
+        {
+            vertical-align: middle;
+        }
+        .page-active
+        {
+            background-color: rgb(0, 132, 255);
+        }
     }
+    
 }
 
 /* -------------------------------- Styles pour grands écrans --------------------------------- */
