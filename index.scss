@@ -280,7 +280,14 @@
             border: none;
             border-radius: 5px;
             font-weight: bold;
+            transition: zoom 0.5s;
         }
+
+        button:hover
+        {
+            zoom: 125%;
+        }
+
         .bouton-don
         {
             font-size:x-large;
@@ -482,7 +489,14 @@
             border: none;
             border-radius: 5px;
             font-weight: bold;
+            transition: zoom 0.5s;
         }
+
+        button:hover
+        {
+            zoom: 125%;
+        }
+
         .bouton-don
         {
             font-size:x-large;
