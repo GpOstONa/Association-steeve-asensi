@@ -14,6 +14,8 @@
     .conteneur
     {
         margin: 10px;
+        text-align: center;
+        justify-content: center;
     }
 
     p
@@ -69,6 +71,12 @@
             border: none;
             border-radius: 5px;
             font-weight: bold;
+            transition: zoom 0.5s;
+        }
+
+        button:hover
+        {
+            zoom: 125%;
         }
         .bouton-don
         {
@@ -207,12 +215,407 @@
     }
 }
 
+// ------------------------------- Styles pour tablettes -----------------------------------------
+
+@media screen and (min-width: 501px)
+{
+    .conteneur
+    {
+        margin: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    p
+        {
+            padding: 10px 0;
+            font-size: 0.8em;
+            line-height: 1.5em;
+        }
+
+    hr 
+    {
+        margin: 20px 0 20px 0;
+        border: none;
+        border-top: gray solid 1px;
+    }
+
+    .menu-principal
+    {
+        background-color: #1A4687;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: space-between;
+        
+
+        button 
+        {
+            background-color: #006eff;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+        .icons-menu
+        {
+            vertical-align: middle;
+        }
+        .page-active
+        {
+            background-color: rgb(8, 164, 255);
+        }
+    }
+
+    header
+    {
+        text-align: center;
+
+        button
+        {
+            text-transform: uppercase;
+            padding: 0.5em;
+            width: 60%;
+            margin: 3px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .bouton-don
+        {
+            font-size:x-large;
+            background-color: #EF2B3F;
+        }
+        .bouton-benevole
+        {
+            font-size: large;
+            background-color: #1A4687;
+        }
+    }
+
+    main 
+    {
+        margin-top: 20px;
+        h1 
+        {
+            font-size: 3em;
+            color: brown;
+            font-weight: lighter;           
+        }
+        h3 
+        {
+            padding: 10px 0;
+            font-size: 0.9em;
+        }
+    }
+    article
+    {
+        background-color: white;
+        transition: 0.5s background-color;
+        a 
+        {
+            color: black;
+            transition: color 0.5s;
+        }
+        h2 
+        {
+            font-weight: lighter;
+        }
+        img 
+        {
+            width: 50%;
+            border-radius: 5px;
+        }
+    }
+
+    article:hover
+    {
+        background-color: #1A4687;
+        border-radius: 5px;
+        a 
+        {
+            color: white;
+        }
+    }
+
+    .evenements
+    {
+        background-color: rgb(255, 236, 239);
+        border-radius: 5px;
+        margin: 1em 0 1em 0;
+
+        .entete-evenements
+        {
+            display: flex;
+            background-color: blueviolet;
+            color: white;
+            border-radius: 5px 5px 0 0;
+
+            img 
+            {
+                width: 2.5em;
+                margin: 8px;
+            }
+
+            h3 
+            {
+                margin-top: -12px;
+                text-transform: capitalize;
+            }
+        }
+
+        hr 
+        {
+            margin: 10px;
+            padding: 0;
+        }
+
+        .corps-evenements
+        {
+            display: flex;
+
+            .date-evenement
+            {
+                background-color: blueviolet;
+                color: white;
+                text-align: center;
+                margin: 10px 10px 0 10px;
+                padding: 5px;
+
+                h3, h4
+                {
+                    font-weight: lighter;
+                }
+                h3 
+                {
+                    font-size: 1.5em;
+                }
+                h4 
+                {
+                    font-size: 0.8em;
+                    text-transform: uppercase;
+                }
+            }
+
+            .evenement-texte
+            {
+                font-size: 0.8em;
+                align-self: center;
+            }
+        }
+
+        .tous-evenements
+        {
+            text-align: right;
+            padding: 0 10px 10px 0;
+        }
+    }
+
+    footer 
+    {
+        text-align: center;
+        font-size: 0.8em;
+    }
+}
+
 /* -------------------------------- Styles pour grands écrans --------------------------------- */
 
 @media screen and (min-width: 1024px)
 {
-    body 
+    .conteneur
     {
-        background-color: blue;
+        margin: 100px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    p
+        {
+            padding: 10px 0;
+            font-size: 0.8em;
+            line-height: 1.5em;
+        }
+
+    hr 
+    {
+        margin: 20px 0 20px 0;
+        border: none;
+        border-top: gray solid 1px;
+    }
+
+    .menu-principal
+    {
+        background-color: #1A4687;
+        display: flex;
+        justify-content: space-around;
+        
+
+        button 
+        {
+            background-color: #006eff;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+        .icons-menu
+        {
+            vertical-align: middle;
+        }
+        .page-active
+        {
+            background-color: rgb(8, 164, 255);
+        }
+    }
+
+    header
+    {
+        text-align: center;
+
+        button
+        {
+            text-transform: uppercase;
+            padding: 0.5em;
+            width: 60%;
+            margin: 3px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .bouton-don
+        {
+            font-size:x-large;
+            background-color: #EF2B3F;
+        }
+        .bouton-benevole
+        {
+            font-size: large;
+            background-color: #1A4687;
+        }
+    }
+
+    main 
+    {
+        margin-top: 20px;
+        h1 
+        {
+            font-size: 3em;
+            color: brown;
+            font-weight: lighter;           
+        }
+        h3 
+        {
+            padding: 10px 0;
+            font-size: 0.9em;
+        }
+    }
+    article
+    {
+        background-color: white;
+        transition: 0.5s background-color;
+        a 
+        {
+            color: black;
+            transition: color 0.5s;
+        }
+        h2 
+        {
+            font-weight: lighter;
+        }
+        img 
+        {
+            width: 50%;
+            border-radius: 5px;
+        }
+    }
+
+    article:hover
+    {
+        background-color: #1A4687;
+        border-radius: 5px;
+        a 
+        {
+            color: white;
+        }
+    }
+
+    .evenements
+    {
+        background-color: rgb(255, 236, 239);
+        border-radius: 5px;
+        margin: 1em 0 1em 0;
+
+        .entete-evenements
+        {
+            display: flex;
+            background-color: blueviolet;
+            color: white;
+            border-radius: 5px 5px 0 0;
+
+            img 
+            {
+                width: 2.5em;
+                margin: 8px;
+            }
+
+            h3 
+            {
+                margin-top: -12px;
+                text-transform: capitalize;
+            }
+        }
+
+        hr 
+        {
+            margin: 10px;
+            padding: 0;
+        }
+
+        .corps-evenements
+        {
+            display: flex;
+
+            .date-evenement
+            {
+                background-color: blueviolet;
+                color: white;
+                text-align: center;
+                margin: 10px 10px 0 10px;
+                padding: 5px;
+
+                h3, h4
+                {
+                    font-weight: lighter;
+                }
+                h3 
+                {
+                    font-size: 1.5em;
+                }
+                h4 
+                {
+                    font-size: 0.8em;
+                    text-transform: uppercase;
+                }
+            }
+
+            .evenement-texte
+            {
+                font-size: 0.8em;
+                align-self: center;
+            }
+        }
+
+        .tous-evenements
+        {
+            text-align: right;
+            padding: 0 10px 10px 0;
+        }
+    }
+
+    footer 
+    {
+        text-align: center;
+        font-size: 0.8em;
     }
 }

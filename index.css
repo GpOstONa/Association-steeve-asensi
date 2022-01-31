@@ -11,6 +11,10 @@
 @media screen and (max-width: 500px) {
   .conteneur {
     margin: 10px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   p {
     padding: 10px 0;
@@ -57,6 +61,11 @@
     border: none;
     border-radius: 5px;
     font-weight: bold;
+    -webkit-transition: zoom 0.5s;
+    transition: zoom 0.5s;
+  }
+  header button:hover {
+    zoom: 125%;
   }
   header .bouton-don {
     font-size: x-large;
@@ -165,10 +174,324 @@
   }
 }
 
+@media screen and (min-width: 501px) {
+  .conteneur {
+    margin: 50px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  p {
+    padding: 10px 0;
+    font-size: 0.8em;
+    line-height: 1.5em;
+  }
+  hr {
+    margin: 20px 0 20px 0;
+    border: none;
+    border-top: gray solid 1px;
+  }
+  .menu-principal {
+    background-color: #1A4687;
+    padding: 20px 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .menu-principal button {
+    background-color: #006eff;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  .menu-principal .icons-menu {
+    vertical-align: middle;
+  }
+  .menu-principal .page-active {
+    background-color: #08a4ff;
+  }
+  header {
+    text-align: center;
+  }
+  header button {
+    text-transform: uppercase;
+    padding: 0.5em;
+    width: 60%;
+    margin: 3px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  header .bouton-don {
+    font-size: x-large;
+    background-color: #EF2B3F;
+  }
+  header .bouton-benevole {
+    font-size: large;
+    background-color: #1A4687;
+  }
+  main {
+    margin-top: 20px;
+  }
+  main h1 {
+    font-size: 3em;
+    color: brown;
+    font-weight: lighter;
+  }
+  main h3 {
+    padding: 10px 0;
+    font-size: 0.9em;
+  }
+  article {
+    background-color: white;
+    -webkit-transition: 0.5s background-color;
+    transition: 0.5s background-color;
+  }
+  article a {
+    color: black;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+  }
+  article h2 {
+    font-weight: lighter;
+  }
+  article img {
+    width: 50%;
+    border-radius: 5px;
+  }
+  article:hover {
+    background-color: #1A4687;
+    border-radius: 5px;
+  }
+  article:hover a {
+    color: white;
+  }
+  .evenements {
+    background-color: #ffecef;
+    border-radius: 5px;
+    margin: 1em 0 1em 0;
+  }
+  .evenements .entete-evenements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px 5px 0 0;
+  }
+  .evenements .entete-evenements img {
+    width: 2.5em;
+    margin: 8px;
+  }
+  .evenements .entete-evenements h3 {
+    margin-top: -12px;
+    text-transform: capitalize;
+  }
+  .evenements hr {
+    margin: 10px;
+    padding: 0;
+  }
+  .evenements .corps-evenements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .evenements .corps-evenements .date-evenement {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    margin: 10px 10px 0 10px;
+    padding: 5px;
+  }
+  .evenements .corps-evenements .date-evenement h3, .evenements .corps-evenements .date-evenement h4 {
+    font-weight: lighter;
+  }
+  .evenements .corps-evenements .date-evenement h3 {
+    font-size: 1.5em;
+  }
+  .evenements .corps-evenements .date-evenement h4 {
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+  .evenements .corps-evenements .evenement-texte {
+    font-size: 0.8em;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .evenements .tous-evenements {
+    text-align: right;
+    padding: 0 10px 10px 0;
+  }
+  footer {
+    text-align: center;
+    font-size: 0.8em;
+  }
+}
+
 /* -------------------------------- Styles pour grands écrans --------------------------------- */
 @media screen and (min-width: 1024px) {
-  body {
-    background-color: blue;
+  .conteneur {
+    margin: 100px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  p {
+    padding: 10px 0;
+    font-size: 0.8em;
+    line-height: 1.5em;
+  }
+  hr {
+    margin: 20px 0 20px 0;
+    border: none;
+    border-top: gray solid 1px;
+  }
+  .menu-principal {
+    background-color: #1A4687;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .menu-principal button {
+    background-color: #006eff;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  .menu-principal .icons-menu {
+    vertical-align: middle;
+  }
+  .menu-principal .page-active {
+    background-color: #08a4ff;
+  }
+  header {
+    text-align: center;
+  }
+  header button {
+    text-transform: uppercase;
+    padding: 0.5em;
+    width: 60%;
+    margin: 3px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  header .bouton-don {
+    font-size: x-large;
+    background-color: #EF2B3F;
+  }
+  header .bouton-benevole {
+    font-size: large;
+    background-color: #1A4687;
+  }
+  main {
+    margin-top: 20px;
+  }
+  main h1 {
+    font-size: 3em;
+    color: brown;
+    font-weight: lighter;
+  }
+  main h3 {
+    padding: 10px 0;
+    font-size: 0.9em;
+  }
+  article {
+    background-color: white;
+    -webkit-transition: 0.5s background-color;
+    transition: 0.5s background-color;
+  }
+  article a {
+    color: black;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s;
+  }
+  article h2 {
+    font-weight: lighter;
+  }
+  article img {
+    width: 50%;
+    border-radius: 5px;
+  }
+  article:hover {
+    background-color: #1A4687;
+    border-radius: 5px;
+  }
+  article:hover a {
+    color: white;
+  }
+  .evenements {
+    background-color: #ffecef;
+    border-radius: 5px;
+    margin: 1em 0 1em 0;
+  }
+  .evenements .entete-evenements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px 5px 0 0;
+  }
+  .evenements .entete-evenements img {
+    width: 2.5em;
+    margin: 8px;
+  }
+  .evenements .entete-evenements h3 {
+    margin-top: -12px;
+    text-transform: capitalize;
+  }
+  .evenements hr {
+    margin: 10px;
+    padding: 0;
+  }
+  .evenements .corps-evenements {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .evenements .corps-evenements .date-evenement {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    margin: 10px 10px 0 10px;
+    padding: 5px;
+  }
+  .evenements .corps-evenements .date-evenement h3, .evenements .corps-evenements .date-evenement h4 {
+    font-weight: lighter;
+  }
+  .evenements .corps-evenements .date-evenement h3 {
+    font-size: 1.5em;
+  }
+  .evenements .corps-evenements .date-evenement h4 {
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+  .evenements .corps-evenements .evenement-texte {
+    font-size: 0.8em;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .evenements .tous-evenements {
+    text-align: right;
+    padding: 0 10px 10px 0;
+  }
+  footer {
+    text-align: center;
+    font-size: 0.8em;
   }
 }
 /*# sourceMappingURL=index.css.map */
