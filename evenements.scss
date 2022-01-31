@@ -58,8 +58,8 @@
         grid-template-columns: 70% 30%;
         border: solid 1px blue;
         border-radius: 5px;
-        margin: 20px;
-        padding: 10px;
+        margin: 5% 15%;
+        padding: 3%;
     }
     
     .img-evenement
@@ -86,3 +86,81 @@
     }
 }
 
+// ------------------------------------ Styles pour tablettes et ordinateurs ----------------------
+
+@media screen and (min-width: 501px)
+{
+    p
+    {
+        padding: 10px 0;
+        font-size: 0.8em;
+        line-height: 1.5em;
+    }
+    
+    .menu-principal
+    {
+        background-color: rgb(0, 60, 255);
+        padding: 1em;
+        display: flex;
+        justify-content: space-between;
+
+        button 
+        {
+            background-color: blue;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .icons-menu
+        {
+            vertical-align: middle;
+        }
+        .page-active
+        {
+            background-color: rgb(0, 132, 255);
+        }
+    }
+
+    .evenements
+    {
+        h1 
+        {
+            text-align: center;
+            color: brown;
+            margin: 20px;
+        }
+    }
+
+    .vignette
+    {
+        display: grid;
+        grid-template-columns: 70% 30%;
+        border: solid 1px blue;
+        border-radius: 5px;
+        margin: 5% 15%;
+        padding: 3%;
+    }
+    
+    .img-evenement
+    {
+        align-self: center;
+        margin-left: 10px;
+
+        img
+        {
+            width: 100%;
+            border-radius: 5px;
+        }
+    }
+
+    .date
+    {
+        color: gray;
+        font-size: 0.8em;
+    }
+
+    .titre-evenement
+    {
+        font-size: 1.1em;
+    }
+}
