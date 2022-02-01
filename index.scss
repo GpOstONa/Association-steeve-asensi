@@ -34,13 +34,6 @@ footer
             line-height: 1.5em;
         }
 
-    hr 
-    {
-        margin: 20px 0 20px 0;
-        border: none;
-        border-top: gray solid 1px;
-    }
-
     .menu-principal
     {
         background-color: #1A4687;
@@ -117,11 +110,11 @@ footer
     article
     {
         background-color: white;
-        transition: 0.5s background-color;
+        transition: 0.5s box-shadow;
+        margin: 7% 0;
         a 
         {
             color: black;
-            transition: color 0.5s;
         }
         h2 
         {
@@ -136,12 +129,8 @@ footer
 
     article:hover
     {
-        background-color: #1A4687;
+        box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.30);
         border-radius: 5px;
-        a 
-        {
-            color: white;
-        }
     }
 
     .evenements
@@ -149,6 +138,7 @@ footer
         background-color: rgb(255, 236, 239);
         border-radius: 5px;
         margin: 1em 0 1em 0;
+        box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.30);
 
         .entete-evenements
         {
@@ -168,12 +158,6 @@ footer
                 margin-top: -12px;
                 text-transform: capitalize;
             }
-        }
-
-        hr 
-        {
-            margin: 10px;
-            padding: 0;
         }
 
         .corps-evenements
@@ -235,13 +219,6 @@ footer
             font-size: 0.8em;
             line-height: 1.5em;
         }
-
-    hr 
-    {
-        margin: 20px 0 20px 0;
-        border: none;
-        border-top: gray solid 1px;
-    }
 
     .menu-principal
     {
@@ -320,12 +297,12 @@ footer
     }
     article
     {
+        margin: 7% 0;
         background-color: white;
-        transition: 0.5s background-color;
+        transition: 0.5s box-shadow;
         a 
         {
             color: black;
-            transition: color 0.5s;
         }
         h2 
         {
@@ -340,12 +317,8 @@ footer
 
     article:hover
     {
-        background-color: #1A4687;
+        box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.30);
         border-radius: 5px;
-        a 
-        {
-            color: white;
-        }
     }
 
     .evenements
@@ -353,6 +326,7 @@ footer
         background-color: rgb(255, 236, 239);
         border-radius: 5px;
         margin: 1em 0 1em 0;
+        box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.30);
 
         .entete-evenements
         {
@@ -372,12 +346,6 @@ footer
                 margin-top: -12px;
                 text-transform: capitalize;
             }
-        }
-
-        hr 
-        {
-            margin: 10px;
-            padding: 0;
         }
 
         .corps-evenements
@@ -439,13 +407,6 @@ footer
             font-size: 0.8em;
             line-height: 1.5em;
         }
-
-    hr 
-    {
-        margin: 20px 0 20px 0;
-        border: none;
-        border-top: gray solid 1px;
-    }
 
     .menu-principal
     {
@@ -523,12 +484,12 @@ footer
     }
     article
     {
+        margin: 7% 0;
         background-color: white;
-        transition: 0.5s background-color;
+        transition: 0.5s box-shadow;
         a 
         {
             color: black;
-            transition: color 0.5s;
         }
         h2 
         {
@@ -543,12 +504,8 @@ footer
 
     article:hover
     {
-        background-color: #1A4687;
+        box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.30);
         border-radius: 5px;
-        a 
-        {
-            color: white;
-        }
     }
 
     .evenements
@@ -556,6 +513,7 @@ footer
         background-color: rgb(255, 236, 239);
         border-radius: 5px;
         margin: 1em 10% 1em 10%;
+        box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.30);
 
         .entete-evenements
         {
@@ -575,12 +533,6 @@ footer
                 margin-top: -12px;
                 text-transform: capitalize;
             }
-        }
-
-        hr 
-        {
-            margin: 10px;
-            padding: 0;
         }
 
         .corps-evenements

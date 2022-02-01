@@ -16,6 +16,11 @@ footer {
 
 /* ---------------------------- Styles pour smartphones -------------------------------------- */
 @media screen and (max-width: 500px) {
+  footer {
+    position: fixed;
+    width: 98%;
+    bottom: 0;
+  }
   p {
     padding: 10px 0;
     font-size: 0.8em;
@@ -54,7 +59,8 @@ footer {
     display: grid;
     -ms-grid-columns: 70% 30%;
         grid-template-columns: 70% 30%;
-    border: solid 1px blue;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     margin: 5% 15%;
     padding: 3%;
@@ -123,7 +129,8 @@ footer {
     display: grid;
     -ms-grid-columns: 70% 30%;
         grid-template-columns: 70% 30%;
-    border: solid 1px blue;
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     margin: 5% 15%;
     padding: 3%;
