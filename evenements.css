@@ -14,7 +14,7 @@
     line-height: 1.5em;
   }
   .menu-principal {
-    background-color: #003cff;
+    background-color: #1A4687;
     padding: 1em;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -24,16 +24,17 @@
             justify-content: space-between;
   }
   .menu-principal button {
-    background-color: blue;
+    background-color: #006eff;
     color: white;
     padding: 5px;
     border-radius: 5px;
+    border: none;
   }
   .menu-principal .icons-menu {
     vertical-align: middle;
   }
   .menu-principal .page-active {
-    background-color: #0084ff;
+    background-color: #08a4ff;
   }
   .evenements h1 {
     text-align: center;
@@ -76,8 +77,8 @@
     line-height: 1.5em;
   }
   .menu-principal {
-    background-color: #003cff;
-    padding: 1em;
+    background-color: #1A4687;
+    padding: 3% 10%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -86,16 +87,17 @@
             justify-content: space-between;
   }
   .menu-principal button {
-    background-color: blue;
+    background-color: #006eff;
     color: white;
     padding: 5px;
     border-radius: 5px;
+    border: none;
   }
   .menu-principal .icons-menu {
     vertical-align: middle;
   }
   .menu-principal .page-active {
-    background-color: #0084ff;
+    background-color: #08a4ff;
   }
   .evenements h1 {
     text-align: center;
