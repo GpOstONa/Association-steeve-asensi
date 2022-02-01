@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Lora&family=Montserrat&display=swap');
+
 *
 {
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
-    font-family: sans-serif;
+}
+
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+}
+h2,h3,h4,h5,h6
+{
+    font-family: 'Lora', serif;
+}
+
+p,a,li 
+{
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 footer 
@@ -29,7 +44,7 @@ footer
     p
     {
         padding: 10px 0;
-        font-size: 0.8em;
+        font-size: 1em;
         line-height: 1.5em;
     }
     
@@ -116,7 +131,7 @@ footer
     p
     {
         padding: 10px 0;
-        font-size: 0.8em;
+        font-size: 1em;
         line-height: 1.5em;
     }
     

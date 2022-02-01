@@ -1,16 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Lora&family=Montserrat&display=swap');
+
 *
 {
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
-    font-family: sans-serif;
+}
+
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+}
+h2,h3,h4,h5,h6
+{
+    font-family: 'Lora', serif;
+}
+
+p,a,li 
+{
+    font-family: 'Hind Madurai', sans-serif;
 }
 
 footer 
 {
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1em;
     background-color: #1A4687;
     padding: 1%;
     color: white;
@@ -30,7 +45,7 @@ footer
     p
         {
             padding: 10px 0;
-            font-size: 0.8em;
+            font-size: 1em;
             line-height: 1.5em;
         }
 
@@ -104,7 +119,7 @@ footer
         h3 
         {
             padding: 10px 0;
-            font-size: 0.9em;
+            font-size: 1.1em;
         }
     }
     article
@@ -182,15 +197,17 @@ footer
                 }
                 h4 
                 {
-                    font-size: 0.8em;
+                    font-size: 1em;
                     text-transform: uppercase;
                 }
             }
 
             .evenement-texte
             {
-                font-size: 0.8em;
+                font-size: 1em;
                 align-self: center;
+                text-align: left;
+                margin-left: 1%;
             }
         }
 
@@ -216,7 +233,7 @@ footer
     p
         {
             padding: 10px 0;
-            font-size: 0.8em;
+            font-size: 1em;
             line-height: 1.5em;
         }
 
@@ -292,7 +309,7 @@ footer
         h3 
         {
             padding: 10px 0;
-            font-size: 0.9em;
+            font-size: 1.1em;
         }
     }
     article
@@ -370,15 +387,17 @@ footer
                 }
                 h4 
                 {
-                    font-size: 0.8em;
+                    font-size: 1em;
                     text-transform: uppercase;
                 }
             }
 
             .evenement-texte
             {
-                font-size: 0.8em;
+                font-size: 1em;
                 align-self: center;
+                text-align: left;
+                margin-left: 1%;
             }
         }
 
@@ -404,7 +423,7 @@ footer
     p
         {
             padding: 10px 0;
-            font-size: 0.8em;
+            font-size: 1em;
             line-height: 1.5em;
         }
 
@@ -479,7 +498,7 @@ footer
         h3 
         {
             padding: 10px 0;
-            font-size: 0.9em;
+            font-size: 1.1em;
         }
     }
     article
@@ -557,15 +576,17 @@ footer
                 }
                 h4 
                 {
-                    font-size: 0.8em;
+                    font-size: 1em;
                     text-transform: uppercase;
                 }
             }
 
             .evenement-texte
             {
-                font-size: 0.8em;
+                font-size: 1em;
                 align-self: center;
+                text-align: left;
+                margin-left: 1%;
             }
         }
 

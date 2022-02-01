@@ -1,15 +1,27 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Lora&family=Montserrat&display=swap");
 * {
   margin: 0;
   padding: 0;
   list-style-type: none;
   text-decoration: none;
-  font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Lora', serif;
+}
+
+p, a, li {
+  font-family: 'Hind Madurai', sans-serif;
 }
 
 footer {
   text-align: center;
-  font-size: 0.8em;
+  font-size: 1em;
   background-color: #1A4687;
   padding: 1%;
   color: white;
@@ -26,7 +38,7 @@ footer {
   }
   p {
     padding: 10px 0;
-    font-size: 0.8em;
+    font-size: 1em;
     line-height: 1.5em;
   }
   .menu-principal {
@@ -88,7 +100,7 @@ footer {
   }
   main h3 {
     padding: 10px 0;
-    font-size: 0.9em;
+    font-size: 1.1em;
   }
   article {
     background-color: white;
@@ -155,14 +167,16 @@ footer {
     font-size: 1.5em;
   }
   .evenements .corps-evenements .date-evenement h4 {
-    font-size: 0.8em;
+    font-size: 1em;
     text-transform: uppercase;
   }
   .evenements .corps-evenements .evenement-texte {
-    font-size: 0.8em;
+    font-size: 1em;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    text-align: left;
+    margin-left: 1%;
   }
   .evenements .tous-evenements {
     text-align: right;
@@ -180,7 +194,7 @@ footer {
   }
   p {
     padding: 10px 0;
-    font-size: 0.8em;
+    font-size: 1em;
     line-height: 1.5em;
   }
   .menu-principal {
@@ -242,7 +256,7 @@ footer {
   }
   main h3 {
     padding: 10px 0;
-    font-size: 0.9em;
+    font-size: 1.1em;
   }
   article {
     margin: 7% 0;
@@ -309,14 +323,16 @@ footer {
     font-size: 1.5em;
   }
   .evenements .corps-evenements .date-evenement h4 {
-    font-size: 0.8em;
+    font-size: 1em;
     text-transform: uppercase;
   }
   .evenements .corps-evenements .evenement-texte {
-    font-size: 0.8em;
+    font-size: 1em;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    text-align: left;
+    margin-left: 1%;
   }
   .evenements .tous-evenements {
     text-align: right;
@@ -335,7 +351,7 @@ footer {
   }
   p {
     padding: 10px 0;
-    font-size: 0.8em;
+    font-size: 1em;
     line-height: 1.5em;
   }
   .menu-principal {
@@ -395,7 +411,7 @@ footer {
   }
   main h3 {
     padding: 10px 0;
-    font-size: 0.9em;
+    font-size: 1.1em;
   }
   article {
     margin: 7% 0;
@@ -462,14 +478,16 @@ footer {
     font-size: 1.5em;
   }
   .evenements .corps-evenements .date-evenement h4 {
-    font-size: 0.8em;
+    font-size: 1em;
     text-transform: uppercase;
   }
   .evenements .corps-evenements .evenement-texte {
-    font-size: 0.8em;
+    font-size: 1em;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+    text-align: left;
+    margin-left: 1%;
   }
   .evenements .tous-evenements {
     text-align: right;
