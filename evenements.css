@@ -50,6 +50,12 @@
     border-radius: 5px;
     margin: 5% 15%;
     padding: 3%;
+    -webkit-transition: 0.5s background-color, 0.5s color;
+    transition: 0.5s background-color, 0.5s color;
+  }
+  .vignette:hover {
+    background-color: #1A4687;
+    color: white;
   }
   .img-evenement {
     -ms-flex-item-align: center;
@@ -113,6 +119,12 @@
     border-radius: 5px;
     margin: 5% 15%;
     padding: 3%;
+    -webkit-transition: 0.5s background-color, 0.5s color;
+    transition: 0.5s background-color, 0.5s color;
+  }
+  .vignette:hover {
+    background-color: #1A4687;
+    color: white;
   }
   .img-evenement {
     -ms-flex-item-align: center;
