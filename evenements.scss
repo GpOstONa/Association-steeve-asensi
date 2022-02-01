@@ -7,6 +7,15 @@
     font-family: sans-serif;
 }
 
+footer 
+{
+    text-align: center;
+    font-size: 0.8em;
+    background-color: #1A4687;
+    padding: 1%;
+    color: white;
+}
+
 /* ---------------------------- Styles pour smartphones -------------------------------------- */
 
 @media screen and (max-width: 500px)
@@ -108,7 +117,7 @@
     .menu-principal
     {
         background-color: #1A4687;
-        padding: 3% 10%;
+        padding: 2% 10%;
         display: flex;
         justify-content: space-between;
 

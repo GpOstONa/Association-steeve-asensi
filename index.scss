@@ -7,6 +7,15 @@
     font-family: sans-serif;
 }
 
+footer 
+{
+    text-align: center;
+    font-size: 0.8em;
+    background-color: #1A4687;
+    padding: 1%;
+    color: white;
+}
+
 /* ---------------------------- Styles pour smartphones -------------------------------------- */
 
 @media screen and (max-width: 500px)
@@ -206,12 +215,6 @@
             text-align: right;
             padding: 0 10px 10px 0;
         }
-    }
-
-    footer 
-    {
-        text-align: center;
-        font-size: 0.8em;
     }
 }
 
@@ -417,12 +420,6 @@
             padding: 0 10px 10px 0;
         }
     }
-
-    footer 
-    {
-        text-align: center;
-        font-size: 0.8em;
-    }
 }
 
 /* -------------------------------- Styles pour grands écrans --------------------------------- */
@@ -625,11 +622,5 @@
             text-align: right;
             padding: 0 10px 10px 0;
         }
-    }
-
-    footer 
-    {
-        text-align: center;
-        font-size: 0.8em;
     }
 }
